@@ -1,0 +1,14 @@
+---
+applications:
+- name: Asset-Skills-Mapper
+  memory: 512M
+  path: build/
+  instances: 1
+  buildpack: staticfile_buildpack
+  env:
+    profiles.active: dev
+    NODE_ENV: development
+    REACT_APP_API_URL: https://https://assetmappingtest.apps.cac.preview.pcf.manulife.com
+    MMB_APP_NAME: gb-claims-ruth-dashboard
+    MMB_CONFIG_LOCATION: local
+    MMB_CONFIG_PROFILE: dev
