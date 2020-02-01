@@ -36,15 +36,15 @@ var config =
 {
     authentication: {
         options: {
-            userName: 'gbtransformsqld1', 
-            password: 'HDjvF7IDMmCRIo/f0WBvmBzzpBNlFw4BMgOeqgZ3plM='
+            userName: 'changed', 
+            password: 'changed'
         },
         type: 'default'
     },
-    server: 'mfccacgbodsd1.database.windows.net', 
+    server: 'changed', 
     options:
     {
-        database: 'gb_transformation_d1',
+        database: 'changed',
         encrypt: true
     }
 }
